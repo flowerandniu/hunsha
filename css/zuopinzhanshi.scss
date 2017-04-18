@@ -1,0 +1,99 @@
+.container-fluid{
+    width: 100%;
+    height: auto;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin:0 auto;
+    float: left;
+}
+.long{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.bg{
+    width: 100%;
+    height: 300px; 
+    background: red;
+}
+.work{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    float: left;
+    img{
+      margin: 0 auto; 
+      display: block; 
+    }
+}
+.photo{
+    width: 100%;
+    height: auto;
+    margin:30px auto;
+    float: left;
+    div{
+        width: 80%;
+        height: auto;
+        margin: 0 auto;  
+        img{
+            width: 20%;
+            height: 100%;
+            margin:0 2.2%;
+        }  
+    }
+}
+.word{
+    width: 100%;
+    height: auto;
+    p{
+        width: 76%;
+        height: 100%;
+        margin: 20px auto;
+        font-size: 18px;
+        font-family: "微软雅黑";
+        color: #C9C8C7;
+    }
+}
+.duo{
+    width: 100%;
+    height: auto;
+    margin:20px auto;
+    float: left;
+    div{
+        width: 76%;
+        height: auto;
+        margin: 0 auto; 
+        img{
+            width: 10%;
+            height: 100%;
+        }  
+    }
+}
+.wordxiao{
+    width: 100%;
+    height: auto;
+    p{
+        width: 76%;
+        height: 100%;
+        margin: 16px auto;
+        font-size: 12px;
+        font-family: "微软雅黑";
+        color: #F0F0F0;
+    }
+}
+@media screen and (min-width: 1920px) {
+    .container-fluid{
+        width: 1200px; 
+    }
+}
+//@media screen and (min-width: 768px) {
+//  .container-fluid{
+//      width: 750px; 
+//  }
+//}
