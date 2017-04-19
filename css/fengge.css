@@ -19,54 +19,96 @@
 
 .bg {
   width: 100%;
-  height: 300px;
-  background: red; }
+  height: 310px;
+  background-image: url(../img/gx/gx-fengge-title1.png);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .work {
   width: 100%;
   height: auto;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   float: left; }
   .work img {
     margin: 0 auto;
     display: block; }
 
+.xian {
+  width: 100%;
+  height: 2px;
+  float: left;
+  margin: 0 auto;
+  margin-bottom: 30px; }
+  .xian div {
+    width: 57%;
+    height: 100%;
+    margin: 0 auto;
+    border-top: 2px solid #DADAD9; }
+
 .photo {
   width: 100%;
   height: auto;
-  margin: 30px auto;
+  margin: 10px auto;
   float: left; }
   .photo div {
-    width: 70%;
+    width: 65%;
     height: auto;
     margin: 0 auto; }
     .photo div img {
       width: 20%;
-      height: aut;
-      margin: 0 6.2%; }
+      height: auto;
+      margin: 0 6.5%;
+      margin-top: 30px; }
+
+.photo1 {
+  width: 100%;
+  height: auto;
+  margin: 30px auto;
+  float: left; }
+  .photo1 div {
+    width: 80%;
+    height: auto;
+    margin: 0 auto; }
+    .photo1 div img {
+      width: 17%;
+      height: auto;
+      margin: 0 14.7%;
+      margin-bottom: 50px; }
+
+.photo2 {
+  width: 100%;
+  height: auto;
+  margin: 10px auto;
+  float: left; }
+  .photo2 div {
+    width: 65%;
+    height: auto;
+    margin: 0 auto; }
+    .photo2 div img {
+      width: 10%;
+      height: auto;
+      margin: 0 6.5%; }
 
 .word {
   width: 100%;
   height: auto; }
   .word p {
-    width: 61%;
+    width: 57%;
     height: 100%;
     margin: 20px auto;
     font-size: 18px;
     font-family: "微软雅黑";
     color: #C9C8C7; }
 
-.wordxiao {
+.chatu {
   width: 100%;
-  height: auto; }
-  .wordxiao p {
-    width: 61%;
-    height: 100%;
-    margin: 16px auto;
-    font-size: 12px;
-    font-family: "微软雅黑";
-    color: #F0F0F0; }
+  height: auto;
+  float: left;
+  margin-bottom: 40px; }
+  .chatu img {
+    width: 100%;
+    height: auto; }
 
 @media screen and (min-width: 1920px) {
   .container-fluid {

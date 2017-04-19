@@ -92,9 +92,10 @@
       height: auto;
       float: left; }
       .chatu .hidden1 .right img {
-        width: 100%;
+        width: 97%;
         height: auto;
-        display: block; }
+        display: block;
+        margin-top: -3px; }
 
 @media screen and (min-width: 1920px) {
   .container-fluid {
