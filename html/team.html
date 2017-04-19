@@ -11,14 +11,21 @@
         padding: 0;
         list-style: none;
     }
-    body{
+    html,body{
+    	width: 1920px;
         min-width: 1200px;
-        height: auto;
+        overflow-x: hidden;
+    }
+    .main{
+    	width: 1200px;
+    	margin: 0 auto;
+    	margin-left: 360px;
     }
     .top{
-    	width: 1200px;
-    	height: 45px;
+    	width: 100%;
+    	height: 60px;
     	margin: 0 auto;
+    	margin-left: 360px;
     }
     .logo{
     	width: 70px;
@@ -53,7 +60,7 @@
     }
     .banner{
     	width: 100%;
-    	height: auto;
+    	height: 100%;
     }
     .banner img{
     	width: 100%;
@@ -68,25 +75,26 @@
     }
     .zx{
     	width: 200px;
-    	margin-left: 240px;
+    	margin-left: 115px;
     	margin-top: 70px;
     }
     .zx img{
     	width: 100%;
     }
     .pho{
-    	width: 870px;
-    	height: 320px;
+    	width: 978px;
+    	height: 336px;
     	margin: 0 auto;
-    	border-top:1px solid gray ;
+    	border-top:1px solid gainsboro;
     }
     .pho img{
     	margin-top: 30px;
-    	width: 25%;
+    	width: 240px;
+    	height: 315px;
     	float: left;
     }
     .pho .pho2,.pho3{
-    	margin-left: 108px;
+    	margin-left: 129px;
     }
     .jt{
     	width: 240px;
@@ -98,7 +106,8 @@
     	width: 100%;
     }
     .jt1{
-    	width: 870px;
+    	width: 978px;
+    	height: 518px;
     	margin: 0 auto;
     	margin-top: 50px;
     }
@@ -106,15 +115,15 @@
     	width: 100%;
     }
     .will{
-    	width: 870px;
+    	width: 978px;
     	margin: 0 auto;
-    	margin-top: 100px;
+    	margin-top: 140px;
     }
      .will img{
     	width: 100%;
     }
      .t1{
-    	width: 870px;
+    	width: 978px;
     	margin: 0 auto;
     	margin-top: 30px;
     }
@@ -122,7 +131,7 @@
     	width: 100%;
     }
     .after{
-    	width: 870px;
+    	width: 978px;
     	margin: 0 auto;
     	margin-top: 100px;
     }
@@ -131,88 +140,92 @@
     }
     .lar1{
     	width: 100%;
-    	height: auto;
+    	height: 568px;
     	margin-top: 50px;
     }
     .lar1 img{
     	width: 100%;
+    	height: 568px;
     }
     .footer{
-    	width: 870px;
+    	width: 978px;
     	margin: 0 auto;
     	margin-top: 100px;
     }
      .footer img{
-    	width: 100%;
+    	width: 978px;
     }
      .last{
     	width: 100%;
-    	height: auto;
+    	height: 525px;
     	margin-top: 50px;
+        margin: 0 auto;
     }
     .last img{
     	width: 100%;
     }
 </style>
 <body>
-    <div class="top">
-        <div class="logo">
-        	<img src="../img/lg/logo1_03.png" alt="" />
-        </div>
-        <div class="mid">
-        	<a class="first">首页</a>
-        	<span>|</span>
-        	<a>婚纱礼服</a>
-        	<span>|</span>
-        	<a>作品展示</a>
-        	<span>|</span>
-        	<a>摄影风格</a>
-        	<span>|</span>
-        	<a>关于我们</a>
-        	<span>|</span>
-        	<a class="say">团队介绍</a>
-        </div>
-        <div class="right">
-        	
-        </div>
-    </div>
-    <div class="banner">
-    	<img src="../img/lg/team-1_02.png" alt="" />
-    </div>
-    <div class="js">
-    	<img src="../img/lg/js_03.png" alt="" />
-    </div>
-    <div class="zx">
-    	<img src="../img/lg/js_07.png" alt="" />
-    </div>
-    <div class="pho">
-    	<img src="../img/lg/team-2_05.png" alt="" />
-    	<img src="../img/lg/team-2_08.png" alt="" class="pho2"/>
-    	<img src="../img/lg/team-2_10.png" alt="" class="pho3"/>
-    </div>
-    <div class="jt">
-    	<img src="../img/lg/js_11.png" alt="" />
-    </div>
-    <div class="jt1">
-    	<img src="../img/lg/photo_03.png" alt="" />
-    </div>
-    <div class="will">
-    	<img src="../img/lg/photo_06.png" alt="" />
-    </div>
-    <div class="t1">
-    	<img src="../img/lg/cam_03.png" alt="" />
-    </div>
-    <div class="after">
-    	<img src="../img/lg/cam_07.png" alt="" />
-    </div>
-    <div class="lar1">
-    	<img src="../img/lg/large_02.png" alt="" />
-    </div>
-    <div class="footer">
-    	<img src="../img/lg/footer_03.png" alt="" />
-    </div>
-    <div class="last">
-    	<img src="../img/lg/footer_06.png" alt="" />
-    </div>
+	    <div class="top">
+	        <div class="logo">
+	        	<img src="../img/lg/logo1_03.png" alt="" />
+	        </div>
+	        <div class="mid">
+	        	<a class="first">首页</a>
+	        	<span>|</span>
+	        	<a>婚纱礼服</a>
+	        	<span>|</span>
+	        	<a>作品展示</a>
+	        	<span>|</span>
+	        	<a>摄影风格</a>
+	        	<span>|</span>
+	        	<a>关于我们</a>
+	        	<span>|</span>
+	        	<a class="say">团队介绍</a>
+	        </div>
+	        <div class="right">
+	        	
+	        </div>
+	    </div>  
+	    <div class="banner">
+	    	<img src="../img/lg/team-1_02.png" alt="" />
+	    </div>
+	<div class="main">
+	    <div class="js">
+	    	<img src="../img/lg/js_03.png" alt="" />
+	    </div>
+	    <div class="zx">
+	    	<img src="../img/lg/js_07.png" alt="" />
+	    </div>
+	    <div class="pho">
+	    	<img src="../img/lg/team-2_05.png" alt="" />
+	    	<img src="../img/lg/team-2_08.png" alt="" class="pho2"/>
+	    	<img src="../img/lg/team-2_10.png" alt="" class="pho3"/>
+	    </div>
+	    <div class="jt">
+	    	<img src="../img/lg/js_11.png" alt="" />
+	    </div>
+	    <div class="jt1">
+	    	<img src="../img/lg/photo_03.png" alt="" />
+	    </div>
+	    <div class="will">
+	    	<img src="../img/lg/photo_06.png" alt="" />
+	    </div>
+	    <div class="t1">
+	    	<img src="../img/lg/cam_03.png" alt="" />
+	    </div>
+	    <div class="after">
+	    	<img src="../img/lg/cam_07.png" alt="" />
+	    </div>
+	</div>
+	    <div class="lar1">
+	    	<img src="../img/lg/large_02.png" alt="" />
+	    </div>
+	    <div class="footer">
+	    	<img src="../img/lg/footer_03.png" alt="" />
+	    </div>
+	    <div class="last">
+	    	<img src="../img/lg/footer_06.png" alt="" />
+	    </div>
 </body>
 </html>
