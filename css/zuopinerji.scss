@@ -18,13 +18,15 @@
 }
 .bg{
     width: 100%;
-    height: 300px; 
-    background: red;
+    height: 250px; 
+    background-image: url(../img/gx/gx-erji-title1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .work{
     width: 100%;
     height: auto;
-    margin-top: 20px;
+    margin-top:75px;
     margin-bottom: 50px;
     float: left;
     img{
@@ -32,60 +34,82 @@
       display: block; 
     }
 }
+.glyphicon{
+    color: #F0BDAD;
+}
+.xian{
+    width:100%;
+    height: 2px;
+//  border-top: 2px solid #DADAD9;
+    float: left;
+    margin: 0 auto;
+    div{
+        width: 62%;
+        height: 100%;
+        margin: 0 auto;
+        border-top: 2px solid #DADAD9;   
+    }
+}
 .photo{
     width: 100%;
     height: auto;
-    margin:30px auto;
+    margin:60px auto;
     float: left;
     div{
-        width: 80%;
+        width: 75%;
         height: auto;
-        margin: 0 auto;  
+        margin: 0 19%;  
         img{
-            width: 20%;
+            width: 17%;
             height: 100%;
-            margin:0 2.2%;
+            margin:0 1.8%;
         }  
     }
 }
-.word{
+.chatu{
     width: 100%;
     height: auto;
-    p{
-        width: 76%;
+    float: left;
+    margin-bottom: 40px;
+    .hidden1{
+        width: 70%;
         height: 100%;
-        margin: 20px auto;
-        font-size: 18px;
-        font-family: "微软雅黑";
-        color: #C9C8C7;
+        margin: 0 auto;
+        .left{
+            width: 25%;
+            height:auto;
+            float: left;
+            background: #FAF9F9;
+            img{
+                width: 75%;
+                height: 100%;
+                display: block;
+                margin: 20% auto;
+            }
+        }
+        .zhong{
+            width: 45%;
+            height: 110%;
+            float: left;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .right{
+            width: 30%;
+            height: auto;
+            float: left;
+            img{
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
     }
 }
 .duo{
-    width: 100%;
-    height: auto;
-    margin:20px auto;
-    float: left;
-    div{
-        width: 76%;
-        height: auto;
-        margin: 0 auto; 
-        img{
-            width: 10%;
-            height: 100%;
-        }  
-    }
-}
-.wordxiao{
-    width: 100%;
-    height: auto;
-    p{
-        width: 76%;
-        height: 100%;
-        margin: 16px auto;
-        font-size: 12px;
-        font-family: "微软雅黑";
-        color: #F0F0F0;
-    }
+    
 }
 @media screen and (min-width: 1920px) {
     .container-fluid{

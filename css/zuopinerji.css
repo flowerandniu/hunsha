@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .container-fluid {
   width: 100%;
   height: auto;
@@ -19,67 +18,83 @@
 
 .bg {
   width: 100%;
-  height: 300px;
-  background: red; }
+  height: 250px;
+  background-image: url(../img/gx/gx-erji-title1.png);
+  background-size: 100%;
+  background-repeat: no-repeat; }
 
 .work {
   width: 100%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 75px;
   margin-bottom: 50px;
   float: left; }
   .work img {
     margin: 0 auto;
     display: block; }
 
+.glyphicon {
+  color: #F0BDAD; }
+
+.xian {
+  width: 100%;
+  height: 2px;
+  float: left;
+  margin: 0 auto; }
+  .xian div {
+    width: 62%;
+    height: 100%;
+    margin: 0 auto;
+    border-top: 2px solid #DADAD9; }
+
 .photo {
   width: 100%;
   height: auto;
-  margin: 30px auto;
+  margin: 60px auto;
   float: left; }
   .photo div {
-    width: 80%;
+    width: 75%;
     height: auto;
-    margin: 0 auto; }
+    margin: 0 19%; }
     .photo div img {
-      width: 20%;
+      width: 17%;
       height: 100%;
-      margin: 0 2.2%; }
+      margin: 0 1.8%; }
 
-.word {
-  width: 100%;
-  height: auto; }
-  .word p {
-    width: 76%;
-    height: 100%;
-    margin: 20px auto;
-    font-size: 18px;
-    font-family: "微软雅黑";
-    color: #C9C8C7; }
-
-.duo {
+.chatu {
   width: 100%;
   height: auto;
-  margin: 20px auto;
-  float: left; }
-  .duo div {
-    width: 76%;
-    height: auto;
-    margin: 0 auto; }
-    .duo div img {
-      width: 10%;
-      height: 100%; }
-
-.wordxiao {
-  width: 100%;
-  height: auto; }
-  .wordxiao p {
-    width: 76%;
+  float: left;
+  margin-bottom: 40px; }
+  .chatu .hidden1 {
+    width: 70%;
     height: 100%;
-    margin: 16px auto;
-    font-size: 12px;
-    font-family: "微软雅黑";
-    color: #F0F0F0; }
+    margin: 0 auto; }
+    .chatu .hidden1 .left {
+      width: 25%;
+      height: auto;
+      float: left;
+      background: #FAF9F9; }
+      .chatu .hidden1 .left img {
+        width: 75%;
+        height: 100%;
+        display: block;
+        margin: 20% auto; }
+    .chatu .hidden1 .zhong {
+      width: 45%;
+      height: 110%;
+      float: left; }
+      .chatu .hidden1 .zhong img {
+        width: 100%;
+        height: 100%; }
+    .chatu .hidden1 .right {
+      width: 30%;
+      height: auto;
+      float: left; }
+      .chatu .hidden1 .right img {
+        width: 100%;
+        height: auto;
+        display: block; }
 
 @media screen and (min-width: 1920px) {
   .container-fluid {
