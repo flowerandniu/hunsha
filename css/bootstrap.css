@@ -263,8 +263,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../fonts/bordstrip-fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/bordstrip-fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/bordstrip-fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/bordstrip-fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -4703,7 +4703,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .breadcrumb > li + li:before {
   padding: 0 5px;
   color: #ccc;
-  content: "/\00a0";
+  content: "-\00a0";
 }
 .breadcrumb > .active {
   color: #777;
