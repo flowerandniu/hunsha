@@ -6,9 +6,6 @@
 	<script src="../js/jquery.min.js"></script>
     <link rel="stylesheet" href="../css/common.css" />
     <link rel="stylesheet" href="../css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap-grid.min.css" />
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../css/style1.css">
 </head>
 <style>
     *{
@@ -16,149 +13,7 @@
         padding: 0;
         list-style: none;
     }
-    @media screen and (min-width: 768px){
-    	 .container-fluid {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  box-sizing: border-box; }
-
-.row {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  margin: 0 auto;
-  float: left; }
-
-.long1 {
-  width: 100%;
-  height: auto;
-  float: left; }
-    html,body{
-    	width: 100%;
-        /*min-width: 1200px;*/
-        overflow-x: hidden;
-    }
-    .main{
-    	width: 1200px;
-    	margin: 0 auto;
-    }
-    .top{
-    	width: 100%;
-    	height: 50px;
-    	margin: 0 auto;
-    	margin-left: 115px;
-    }
-    .logo{
-    	width: 10%;
-    	float: left;
-    	margin-top: 10px;
-    }
-    .mid{
-    	width: 60%;
-    	float: left;
-    	margin-left: 50px;
-    	color: #dd5b4b;
-    	line-height: 60px;
-    	font-size: 16px;
-    	cursor: pointer;
-    }
-    .mid a{
-    	width: 15%;
-    	float: left;
-    	margin-left: 10px;
-    }
-    .mid .first{
-    	width: 8%;
-    }
-    .mid span{
-    	margin-left: -20px;
-    }
-    .mid .say{
-    	background: #DD5B4B;
-    	color: #fff;
-    	text-align: center;
-    }
-    .banner{
-    	width: 100%;
-    	/*height: 100%;*/
-    }
-    .banner img{
-    	width: 100%;
-    }
-    .pos{
-    	width: 25%;
-    	margin-left: 115px;
-    	margin-top: 30px;
-    }
-    .pos img{
-    	width: 100%;
-    }
-    .team{
-    	width: 35%;
-    	margin: 0 auto;
-    }
-    .team img{
-    	width: 100%;
-    }
-    .photoer{
-    	width: 82%;
-    	height: auto;
-    	margin: 0 auto;
-    	border-bottom: 1px solid gainsboro;
-    	border-top: 1px solid gainsboro;
-    }
-    .cam{
-    	width: 25%;
-    	margin: 0 auto;
-    	margin-top: 20px;
-    }
-    .cam img{
-    	width: 100%;
-    }
-    .gold{
-    	width: 15%;
-    }
-    .gold img{
-    	width: 100%;
-    }
-    .wenzi{
-    	margin-top: 50px;
-    	color: gainsboro;
-    	font-size: 14px;
-    }
-     .eng{
-    	margin-top: 50px;
-    	color: gainsboro;
-    	font-size: 14px;
-    }
-    .pic{
-    	width: 80%;
-    	margin: 0 auto;
-    	margin-top: 50px;
-    }
-    .pic img{
-    	width: 100%;
-    }
-    .footer{
-    	width: 100%;
-    	margin-top: 50px;
-        margin: 0 auto;
-        margin-top: 100px;
-    }
-    .box1{
-    	display: none;
-    }
-    .pic1{
-    	display: none;
-    }
-    .footer img{
-    	width: 100%;
-    }
-   }
-   
-    @media screen and (max-width: 768px){
-    	  .container-fluid {
+    .container-fluid {
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -189,7 +44,7 @@
     	width: 100%;
     }
     .team{
-    	width: 350px;
+    	width: 230px;
     	margin: 0 auto;
     	margin-left: 200px;
     }
@@ -208,9 +63,6 @@
     	margin: 0 auto;
     	margin-top: 20px;
     	margin-left: 225px;
-    }
-    .box{
-    	display: none;
     }
     .cam img{
     	width: 100%;
@@ -233,47 +85,22 @@
     	color: gainsboro;
     	font-size: 14px;
     }
-    .pic1{
+    .pic{
     	width: 750px;
     	margin: 0 auto;
     	margin-top: 50px;
     }
-    .pic1 img{
+    .pic img{
     	width: 100%;
     }
-    .top,.pic,.banner,.footer{
-    	display: none;
-    }	
-   }
+    /*@media screen and (min-width: 768px) and (max-width:950px) {
+  .container-fluid {
+    width: 750px; } }*/
 </style>
 <body>
 	<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 long1">
-					<div class="top">
-        <div class="logo">
-        	<img src="../img/lg/logo1_03.png" alt="" />
-        </div>
-        <div class="mid">
-        	<a class="first">首页</a>
-        	<span>|</span>
-        	<a>婚纱礼服</a>
-        	<span>|</span>
-        	<a>作品展示</a>
-        	<span>|</span>
-        	<a>摄影风格</a>
-        	<span>|</span>
-        	<a>关于我们</a>
-        	<span>|</span>
-        	<a class="say">团队介绍</a>
-        </div>
-        <div class="right">
-        	
-        </div>
-    </div>
-    <div class="banner">
-    	<img src="../img/lg/year_02.png" alt="" />
-    </div>
+				<div class="hidden-lg hidden-md hidden-sm  col-xs-12 long1">
     <div class="pos">
     	<img src="../img/lg/pos_05.png" alt="" />
     </div>
@@ -293,37 +120,8 @@
     	<div class="eng">
     		张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。
     	</div>
-    	<div class="box">
-    		<div class="box-img">
-    			<img src="../img/lg/pic_03.png" alt="" />
-    		</div>
-    		<div class="box-content">
-						<h4 class="title">will smith</h4>
-						<p class="description">Very few performers have had as much success transitioning from the music scene to acting as Will Smith has.Being in the entertainment scene since the late 80s,today,Smith is one of the most recognized and esteemed performers and producers in the industry.
-Will Smith was born Willard Christopher Smith Jr on September 25th,1968 in Philadelphia,Pennsylvania.He attended Overbrook High School in Winfield Pennsylvania,which is where he soon became known to his friends as “The Prince,” for his charming antics.Little did he know that this nickname would still have meaning over 30 years later.
-.</p>
-						<ul class="social-links">
-							<li><a href="#" class="fa fa-qq"></a></li>
-							<li><a href="#" class="fa fa-weibo"></a></li>
-							<li><a href="#" class="fa fa-weixin"></a></li>
-						</ul>
-					</div>
-    	</div>
-    	<div class="box1">
-    		<div class="box1-img">
-    			<img src="../img/lg/will_03.png" alt="" />
-    		</div>
-    		<div class="box1-content">
-    			<h4 class="title">will smith</h4>
-						<p class="description">Very few performers have had as much success transitioning from the music scene to acting as Will Smith has.Being in the entertainment scene since the late 80s,today,Smith is one of the most recognized and esteemed performers and producers in the industry.
-Will Smith was born Willard Christopher Smith Jr on September 25th,1968 in Philadelphia,Pennsylvania.He attended Overbrook High School in Winfield Pennsylvania,which is where he soon became known to his friends as “The Prince,” for his charming antics.Little did he know that this nickname would still have meaning over 30 years later.
-</p>
-						<ul class="social-links">
-							<li><a href="#" class="fa fa-qq"></a></li>
-							<li><a href="#" class="fa fa-weibo"></a></li>
-							<li><a href="#" class="fa fa-weixin"></a></li>
-						</ul>
-    		</div>
+    	<div class="pic">
+    		<img src="../img/lg/will_03.png" alt="" />
     	</div>
     	<div class="wenzi">
     		张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。
@@ -331,12 +129,10 @@ Will Smith was born Willard Christopher Smith Jr on September 25th,1968 in Phila
     	<div class="wenzi">
     		张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。
     	</div>
-    </div>
-    <div class="footer">
-	    <img src="../img/lg/di_02.png" alt="" />
     </div>
 				</div>
 			</div>
 	</div>		
+	  
 </body>
 </html>
