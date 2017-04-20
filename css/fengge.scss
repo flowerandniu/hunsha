@@ -241,6 +241,25 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
+    .tiao{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        ul{
+            width: 80%;
+            height: auto;
+            margin: 0 auto; 
+            li{
+              width: 25%;
+              height: auto;
+              float: left;
+              img{
+                  width: 65%;
+                  height: 100%;
+                }    
+            }
+        }
+    }
     .work{
         width: 100%;
         height: auto;

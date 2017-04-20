@@ -200,6 +200,21 @@
     background-image: url(../img/gx/gx-fengge-title1.png);
     background-size: 100%;
     background-repeat: no-repeat; }
+  .tiao {
+    width: 100%;
+    height: auto;
+    margin: 0 auto; }
+    .tiao ul {
+      width: 80%;
+      height: auto;
+      margin: 0 auto; }
+      .tiao ul li {
+        width: 25%;
+        height: auto;
+        float: left; }
+        .tiao ul li img {
+          width: 80%;
+          height: 100%; }
   .work {
     width: 100%;
     height: auto;
