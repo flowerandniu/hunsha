@@ -1,145 +1,292 @@
-.container-fluid{
-    width: 100%;
-    height: auto;
-    margin:0 auto;
-    box-sizing: border-box;
-}
-.row{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    margin:0 auto;
-    float: left;
-}
-.long{
-    width: 100%;
-    height: auto;
-    float: left;
-}
-.bg{
-    width: 100%;
-    height: 310px; 
-    background-image: url(../img/gx/gx-fengge-title1.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.work{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-bottom: 45px;
-    float: left;
-    img{
-      margin: 0 auto; 
-      display: block; 
-    }
-}
-.xian{
-    width:100%;
-    height: 2px;
-    float: left;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    div{
-        width: 57%;
-        height: 100%;
-        margin: 0 auto;
-        border-top: 2px solid #DADAD9;  
-    }
-}
-.photo{
-    width: 100%;
-    height: auto;
-    margin:10px auto;
-    float: left;
-   
-    div{
-        width: 65%;
+@media screen and (max-width: 1920px) and (min-width: 768px){
+    .container-fluid{
+        width: 1200px;
         height: auto;
-        margin: 0 auto;  
-        img{
-            width: 20%;
-            height: auto;
-            margin:0 6.5%;
-            margin-top: 30px;
-        }  
+        margin:0 auto;
+        box-sizing: border-box;
     }
-}
-.photo1{
-    width: 100%;
-    height: auto;
-    margin:30px auto;
-    float: left;
-    div{
-        width: 80%;
-        height: auto;
-        margin: 0 auto;  
-        img{
-            width: 17%;
-            height: auto;
-            margin:0 14.7%;
-            margin-bottom: 50px;
-        }  
-    }
-}
-.photo2{
-    width: 100%;
-    height: auto;
-    margin:10px auto;
-    float: left;
-    div{
-        width: 65%;
-        height: auto;
-        margin: 0 auto;  
-        img{
-            width: 10%;
-            height: auto;
-            margin:0 6.5%;
-        }  
-    }
-}
-.word{
-    width: 100%;
-    height: auto;
-    p{
-        width: 57%;
-        height: 100%;
-        margin: 20px auto;
-        font-size: 18px;
-        font-family: "微软雅黑";
-        color: #C9C8C7;
-    }
-}
-//.wordxiao{
-//  width: 100%;
-//  height: auto;
-//  p{
-//      width: 57%;
-//      height: 100%;
-//      margin: 16px auto;
-//      font-size: 12px;
-//      font-family: "微软雅黑";
-//      color: #F0F0F0;
-//  }
-//}
-.chatu{
-    width: 100%;
-    height: auto;
-    float: left;
-    margin-bottom: 40px;
-    img{
+    .row{
         width: 100%;
         height: auto;
-        
+        overflow: hidden;
+        margin:0 auto;
+        float: left;
+    }
+    .long{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .bg{
+        width: 100%;
+        height: 310px; 
+        background-image: url(../img/gx/gx-fengge-title1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .work{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 45px;
+        float: left;
+        img{
+          margin: 0 auto; 
+          display: block; 
+        }
+    }
+    .xian{
+        width:100%;
+        height: 2px;
+        float: left;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        div{
+            width: 57%;
+            height: 100%;
+            margin: 0 auto;
+            border-top: 2px solid #DADAD9;  
+        }
+    }
+    .photo{
+        width: 100%;
+        height: auto;
+        margin:10px auto;
+        float: left;
+       
+        div{
+            width: 65%;
+            height: auto;
+            margin: 0 auto;  
+            img{
+                width: 20%;
+                height: auto;
+                margin:0 6.4%;
+                margin-top: 30px;
+            }  
+        }
+    }
+    .photo3{
+        width: 100%;
+        height: auto;
+        margin:10px auto;
+        float: left;
+       
+        div{
+            width: 65%;
+            height: auto;
+            margin: 0 auto;  
+            img{
+                width: 20%;
+                height: auto;
+                margin:0 6.4%;
+                margin-top: 30px;
+            }  
+        }
+    }
+    .photo1{
+        width: 100%;
+        height: auto;
+        margin:30px auto;
+        float: left;
+        div{
+            width: 80%;
+            height: auto;
+            margin: 0 auto;  
+            img{
+                width: 17%;
+                height: auto;
+                margin:0 14.7%;
+                margin-bottom: 50px;
+            }  
+        }
+    }
+    .photo2{
+        width: 100%;
+        height: auto;
+        margin:10px auto;
+        float: left;
+        div{
+            width: 65%;
+            height: auto;
+            margin: 0 auto;  
+            img{
+                width: 10%;
+                height: auto;
+                margin:0 6.5%;
+            }  
+        }
+    }
+    .word{
+        width: 100%;
+        height: auto;
+        p{
+            width: 57%;
+            height: 100%;
+            margin: 20px auto;
+            font-size: 18px;
+            font-family: "微软雅黑";
+            color: #C9C8C7;
+        }
+    }
+    .chatu{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-bottom: 40px;
+        img{
+            width: 100%;
+            height: auto;
+            
+        }
     }
 }
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 768px) {
     .container-fluid{
-        width: 1200px; 
+        width: 100%;
+        height: auto;
+        margin:0 auto;
+        box-sizing: border-box;
+    }
+    .row{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin:0 auto;
+        float: left;
+    }
+    .long{
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+    .bg{
+        width: 100%;
+        height: 310px; 
+        background-image: url(../img/gx/gx-fengge-title1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .work{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 45px;
+        float: left;
+        img{
+          margin: 0 auto; 
+          display: block; 
+        }
+    }
+    .xian{
+        width:100%;
+        height: 2px;
+        float: left;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        div{
+            width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            border-top: 2px solid #DADAD9;  
+        }
+    }
+    .photo{
+        width: 100%;
+        height:750px;
+        margin:10px auto;
+        float: left;
+             
+        div{
+            width: 100%;
+            height:auto;
+            margin: 0 auto;  
+            position: relative;
+            img{
+                width: 85%;
+                height: auto;
+                margin:0 6.5%;
+                margin-top: 30px;
+                position: absolute;
+                top: 0;
+            }  
+        }
+    }
+    .photo3{
+        width: 100%;
+        height: auto;
+        margin:10px auto;
+        float: left;
+       
+        div{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;  
+            img{
+                width: 30%;
+                height: auto;
+                margin:0 6.5%;
+                margin-top: 30px;
+            }  
+        }
+    }
+    .photo1{
+        width:100%;
+        height: auto;
+        margin:0px auto;
+        float: left;
+        overflow: hidden;
+        div{
+            width: 50%;
+            height: auto;
+            img{
+                width: 100%;
+                height: auto;
+                margin-top: 10%;
+                margin-bottom: 5%;
+                margin-left: 15%;
+            }  
+        }
+    }
+    .photo2{
+        width: 100%;
+        height: auto;
+        margin:0px auto;
+        float: left;
+        div{
+            width:86%;
+            height: auto;
+            margin: 0 auto;  
+            img{
+                width: 25%;
+                height: auto;
+//              margin:0 6.5%;
+            }  
+        }
+    }
+    .word{
+        width: 100%;
+        height: auto;
+//      padding-top: 1170px;
+        p{
+            width: 85%;
+            height: 100%;
+            margin: 20px auto;
+            font-size: 18px;
+            font-family: "微软雅黑";
+            color: #C9C8C7;
+        }
+    }
+    .chatu{
+        width: 100%;
+        height: auto;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+            height: auto;
+            
+        }
     }
 }
-//@media screen and (min-width: 768px) {
-//  .container-fluid{
-//      width: 750px; 
-//  }
-//}

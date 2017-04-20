@@ -1,102 +1,170 @@
-.container-fluid {
-  width: 100%;
-  height: auto;
-  margin: 0 auto;
-  box-sizing: border-box; }
-
-.row {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  margin: 0 auto;
-  float: left; }
-
-.long {
-  width: 100%;
-  height: auto;
-  float: left; }
-
-.bg {
-  width: 100%;
-  height: 250px;
-  background-image: url(../img/gx/gx-erji-title1.png);
-  background-size: 100%;
-  background-repeat: no-repeat; }
-
-.work {
-  width: 100%;
-  height: auto;
-  margin-top: 75px;
-  margin-bottom: 50px;
-  float: left; }
-  .work img {
-    margin: 0 auto;
-    display: block; }
-
-.glyphicon {
-  color: #F0BDAD; }
-
-.xian {
-  width: 100%;
-  height: 2px;
-  float: left;
-  margin: 0 auto; }
-  .xian div {
-    width: 62%;
-    height: 100%;
-    margin: 0 auto;
-    border-top: 2px solid #DADAD9; }
-
-.photo {
-  width: 100%;
-  height: auto;
-  margin: 60px auto;
-  float: left; }
-  .photo div {
-    width: 75%;
-    height: auto;
-    margin: 0 19%; }
-    .photo div img {
-      width: 17%;
-      height: 100%;
-      margin: 0 1.8%; }
-
-.chatu {
-  width: 100%;
-  height: auto;
-  float: left;
-  margin-bottom: 40px; }
-  .chatu .hidden1 {
-    width: 70%;
-    height: 100%;
-    margin: 0 auto; }
-    .chatu .hidden1 .left {
-      width: 25%;
-      height: auto;
-      float: left;
-      background: #FAF9F9; }
-      .chatu .hidden1 .left img {
-        width: 75%;
-        height: 100%;
-        display: block;
-        margin: 20% auto; }
-    .chatu .hidden1 .zhong {
-      width: 45%;
-      height: 110%;
-      float: left; }
-      .chatu .hidden1 .zhong img {
-        width: 100%;
-        height: 100%; }
-    .chatu .hidden1 .right {
-      width: 30%;
-      height: auto;
-      float: left; }
-      .chatu .hidden1 .right img {
-        width: 97%;
-        height: auto;
-        display: block;
-        margin-top: -3px; }
-
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .container-fluid {
-    width: 1200px; } }
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box; }
+  .row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left; }
+  .long {
+    width: 100%;
+    height: auto;
+    float: left; }
+  .bg {
+    width: 100%;
+    height: 250px;
+    background-image: url(../img/gx/gx-erji-title1.png);
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  .work {
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    float: left; }
+    .work img {
+      margin: 0 auto;
+      display: block; }
+  .glyphicon {
+    color: #F0BDAD; }
+  .xian {
+    width: 100%;
+    height: 2px;
+    float: left;
+    margin: 0 auto; }
+    .xian div {
+      width: 62%;
+      height: 100%;
+      margin: 0 auto;
+      border-top: 2px solid #DADAD9; }
+  .photo {
+    width: 100%;
+    height: auto;
+    margin: 60px auto;
+    float: left; }
+    .photo div {
+      width: 75%;
+      height: auto;
+      margin: 0 19%; }
+      .photo div img {
+        width: 17%;
+        height: 100%;
+        margin: 0 1.8%; }
+  .chatu {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 40px; }
+    .chatu .hidden1 {
+      width: 70%;
+      height: 100%;
+      margin: 0 auto; }
+      .chatu .hidden1 .left {
+        width: 25%;
+        height: auto;
+        float: left;
+        background: #FAF9F9; }
+        .chatu .hidden1 .left img {
+          width: 75%;
+          height: 100%;
+          display: block;
+          margin: 20% auto; }
+      .chatu .hidden1 .zhong {
+        width: 45%;
+        height: 110%;
+        float: left; }
+        .chatu .hidden1 .zhong img {
+          width: 100%;
+          height: 100%; }
+      .chatu .hidden1 .right {
+        width: 30%;
+        height: auto;
+        float: left; }
+        .chatu .hidden1 .right img {
+          width: 97%;
+          height: auto;
+          display: block;
+          margin-top: -3px; } }
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box; }
+  .row {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left; }
+  .col-md-12 {
+    width: 100%;
+    height: auto;
+    float: left; }
+  .bg {
+    width: 100%;
+    height: 150px;
+    background-image: url(../img/gx/gx-erji-title1.png);
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  .work {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    float: left; }
+    .work img {
+      margin: 0 auto; }
+  .glyphicon {
+    color: #F0BDAD; }
+  .xian {
+    width: 100%;
+    height: 2px;
+    float: left;
+    margin: 0 auto; }
+    .xian div {
+      width: 62%;
+      height: 100%;
+      margin: 0 auto;
+      border-top: 2px solid #DADAD9; }
+  .photo {
+    width: 100%;
+    height: auto;
+    margin: 40px auto;
+    float: left; }
+    .photo div {
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      float: left; }
+      .photo div img {
+        width: 46%;
+        height: 100%;
+        float: left;
+        padding-left: 10px;
+        margin-bottom: 30px; }
+  .chatu {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 40px; }
+    .chatu .hidden1 {
+      width: 100%;
+      height: 100%;
+      margin: 0 auto; }
+      .chatu .hidden1 .left {
+        display: none; }
+      .chatu .hidden1 .zhong {
+        width: 100%;
+        height: 110%;
+        float: left; }
+        .chatu .hidden1 .zhong img {
+          width: 100%;
+          height: 100%; }
+      .chatu .hidden1 .right {
+        display: none; } }
