@@ -3,13 +3,70 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>摄影风格</title>
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-fullscreen" content="true" />
+		<meta name="full-screen" content="yes">
+		<meta name="format-detection" content="telephone=no, email=no" />
 		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/fengge.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/bootstrapa.css"/>
+		<link rel="stylesheet" href="../css/swiper.css">
+		<script src="../js/swiper.js"></script>
 	</head>
+	<style>
+	    .swiper-container {
+	        width: 500px;
+	        height: auto;
+	        margin: 20px auto;
+	    }
+	    .swiper-slide {
+	        text-align: center;
+	        font-size: 18px;
+	        background: #fff;
+	        
+	        /* Center slide text vertically */
+	        display: -webkit-box;
+	        display: -ms-flexbox;
+	        display: -webkit-flex;
+	        display: flex;
+	        -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	        -webkit-justify-content: center;
+	        justify-content: center;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        -webkit-align-items: center;
+	        align-items: center;
+	    }
+	    .swiper-slide img{
+	    	width: 100%;
+	    	height: auto;
+	    }
+    </style>
 	<body>
 		<div class="container-fluid">
 			<div class="row">
+				<div class="nav">
+					<div class='container'>
+						<img class='logo' src="../img/lp/index-1.png">
+						<img class='name' src='../img/lp/index-2.png'>
+						<div class='letter'>
+							<a href='javascript:;' target='_blank'>首页</a>
+							<a href='javascript:;' target='_black'>婚纱礼服</a>
+							<a class='active' href='javascript:;' target='_black'>作品展示</a>
+							<a href='javascript:;' target='_black'>摄影风格</a>
+							<a href='javascript:;' target='_black'>关于我们</a>
+							<a href='javascript:;' target='_black'>团队介绍</a>
+						</div>
+						<form action="" method="">
+							<input type="text" name='search'>
+							<img class='search' src="../img/lp/index-4.png">
+						</form>
+					</div>
+				</div>
 				<div class="col-lg-12 col-md-12 long">
 					<div class="bg"></div>
 					<div class="work"><img src="../img/gx/gx-fengge-title2.png" alt="" /></div>
@@ -28,6 +85,13 @@
 							<img src="../img/gx/gx-2.png" alt="" />
 						</div>
 					</div>
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide"><img src="../img/gx/gx-fengge-tu1.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-1.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-2.png" alt="" /></div>
+				        </div>
+				    </div>
 					<div class="photo1">
 						<div>
 							<img src="../img/gx/gx-md-tilte1.png" alt="" />
@@ -59,6 +123,13 @@
 							<img src="../img/gx/gx-13.png" alt="" />
 						</div>
 					</div>
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide"><img src="../img/gx/gx-11.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-12.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-13.png" alt="" /></div>
+				        </div>
+				    </div>
 					<div class="photo1">
 						<div>
 							<img src="../img/gx/gx-title1.jpg" alt="" />
@@ -93,6 +164,13 @@
 							<img src="../img/gx/gx-16.png" alt="" />
 						</div>
 					</div>
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide"><img src="../img/gx/gx-14.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-15.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-16.png" alt="" /></div>
+				        </div>
+				    </div>
 					<div class="photo1">
 						<div>
 							<img src="../img/gx/gx-md-tilte1.png" alt="" />
@@ -125,6 +203,13 @@
 							<img src="../img/gx/gx-19.png" alt="" />
 						</div>
 					</div>
+					<div class="swiper-container">
+				        <div class="swiper-wrapper">
+				            <div class="swiper-slide"><img src="../img/gx/gx-17.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-18.png" alt="" /></div>
+				            <div class="swiper-slide"><img src="../img/gx/gx-19.png" alt="" /></div>
+				        </div>
+				    </div>
 					<div class="photo1">
 						<div>
 							<img src="../img/gx/gx-md-tilte1.png" alt="" />
@@ -145,3 +230,6 @@
 		</div>
 	</body>
 </html>
+<script>
+	var swiper = new Swiper('.swiper-container');
+</script>
