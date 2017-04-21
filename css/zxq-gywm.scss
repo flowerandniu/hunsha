@@ -580,13 +580,13 @@ a{
 //                  position: absolute;
 //                  left:0;
 //                  top:90px;
-                    margin-top:90px;
+                    margin-top:50px;
                     z-index:1;
                 }
                 img:last-child{
                     width:74%;
                     height:auto;
-                    margin-top:-250px;
+                    margin-top:-150px;
                     margin-left:30%;
                     z-index:2;
                 }
@@ -597,7 +597,7 @@ a{
             width:100%;
             height:auto;
             margin:0 auto;
-            margin-top:90px;
+            margin-top:50px;
             .zxq-wh1{
                 width:100%;
                 margin:0 auto;
@@ -644,7 +644,6 @@ a{
                         font-size:30px;
 //                      line-height: 30px;
                         color:#c2c1c1;
-                        text-align: justify; 
                         span{
                             color:#e73c50;
                         }
