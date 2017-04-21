@@ -77,11 +77,11 @@ a {
   }
   .zxq-daping .zxq-header {
     width: 100%;
-    height: 325px;
+    height: auto;
   }
   .zxq-daping .zxq-header img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
   .zxq-daping .zxq-first {
     width: 1200px;
@@ -118,7 +118,7 @@ a {
   }
   .zxq-daping .zxq-jian p:last-child {
     font-size: 22px;
-    line-height: 30px;
+    line-height: 35px;
     color: #696969;
   }
   .zxq-daping .zxq-jian p:last-child span {
@@ -267,7 +267,7 @@ a {
   }
   .zxq-daping .zxq-fw .zxq-zhishang .zxq-gywmright .second-p {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 56px;
     color: #e73c50;
   }
   .zxq-daping .zxq-fw .zxq-zhishang .zxq-gywmright .three-p {
@@ -292,6 +292,9 @@ a {
     color: #d4d4d4;
     font-size: 12px;
     margin-top: 95px;
+  }
+  .zxq-xiaoping {
+    display: none;
   }
 }
 
@@ -437,8 +440,8 @@ a {
     height: auto;
     margin: 0 auto;
     padding-top: 40px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
     box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-jian p {
@@ -464,8 +467,8 @@ a {
     width: 100%;
     height: auto;
     padding-top: 55px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
     overflow: hidden;
     box-sizing: border-box;
   }
@@ -488,8 +491,8 @@ a {
     height: auto;
     margin: 0 auto;
     padding-top: 28px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
     overflow: hidden;
     box-sizing: border-box;
   }
@@ -507,8 +510,8 @@ a {
     height: auto;
     margin: 0 auto;
     padding-top: 38px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
     overflow: hidden;
     box-sizing: border-box;
   }
@@ -527,8 +530,8 @@ a {
     height: auto;
     margin: 0 auto;
     padding-top: 36px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
     overflow: hidden;
     box-sizing: border-box;
   }
@@ -562,7 +565,7 @@ a {
   .zxq-xiaoping .zxq-duan5 .zxq-imgs img:last-child {
     width: 74%;
     height: auto;
-    margin-top: -340px;
+    margin-top: -250px;
     margin-left: 30%;
     z-index: 2;
   }
@@ -606,8 +609,8 @@ a {
     height: auto;
     float: left;
     padding-top: 46px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
     overflow: hidden;
     box-sizing: border-box;
     overflow: hidden;
@@ -617,6 +620,7 @@ a {
     height: auto;
     font-size: 30px;
     color: #c2c1c1;
+    text-align: justify;
   }
   .zxq-xiaoping .zxq-fw .zxq-zhishang .zxq-gywmright p span {
     color: #e73c50;
@@ -625,6 +629,7 @@ a {
     font-size: 36px;
     line-height: 30px;
     color: #e73c50;
+    text-align: justify;
   }
   .zxq-xiaoping .zxq-fw .zxq-zhishang .zxq-gywmright .three-p {
     font-size: 20px;
@@ -651,5 +656,8 @@ a {
     color: #d4d4d4;
     font-size: 18px;
     margin-top: 52px;
+  }
+  .zxq-daping {
+    display: none;
   }
 }
