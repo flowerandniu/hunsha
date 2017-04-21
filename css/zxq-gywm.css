@@ -425,6 +425,7 @@ a {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    box-sizing: border-box;
     overflow: hidden;
   }
   .zxq-xiaoping .zxq-second img {
@@ -435,10 +436,13 @@ a {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 47px;
+    padding-top: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-jian p {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     line-height: 24px;
     margin-bottom: 5px;
@@ -459,18 +463,21 @@ a {
   .zxq-xiaoping .zxq-duan1 {
     width: 100%;
     height: auto;
-    margin: 0 auto;
-    margin-top: 71px;
+    padding-top: 55px;
+    padding-left: 24px;
+    padding-right: 24px;
     overflow: hidden;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-duan1 p {
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     font-size: 20px;
     line-height: 36px;
     color: #969696;
     text-align: justify;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-duan1 p mark {
     color: #e63b4f;
@@ -480,10 +487,14 @@ a {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 28px;
+    padding-top: 28px;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-duan2 p {
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     font-size: 20px;
@@ -495,10 +506,14 @@ a {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 38px;
+    padding-top: 38px;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-duan3 p {
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     font-size: 18px;
@@ -511,10 +526,14 @@ a {
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-top: 36px;
+    padding-top: 36px;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-duan4 p {
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     font-size: 18px;
@@ -543,7 +562,7 @@ a {
   .zxq-xiaoping .zxq-duan5 .zxq-imgs img:last-child {
     width: 74%;
     height: auto;
-    margin-top: -50%;
+    margin-top: -340px;
     margin-left: 30%;
     z-index: 2;
   }
@@ -568,7 +587,7 @@ a {
   }
   .zxq-xiaoping .zxq-fw .zxq-zhishang {
     width: 100%;
-    height: 450px;
+    height: auto;
     margin: 0 auto;
   }
   .zxq-xiaoping .zxq-fw .zxq-zhishang .zxq-gywmleft {
@@ -578,15 +597,19 @@ a {
     float: left;
   }
   .zxq-xiaoping .zxq-fw .zxq-zhishang .zxq-gywmleft img {
-    width: 80%;
+    width: 100%;
+    padding: 0 24px;
     height: auto;
   }
   .zxq-xiaoping .zxq-fw .zxq-zhishang .zxq-gywmright {
-    width: 80%;
+    width: 100%;
     height: auto;
     float: left;
-    margin-left: 60px;
-    margin-top: 46px;
+    padding-top: 46px;
+    padding-left: 24px;
+    padding-right: 24px;
+    overflow: hidden;
+    box-sizing: border-box;
     overflow: hidden;
   }
   .zxq-xiaoping .zxq-fw .zxq-zhishang .zxq-gywmright p {
