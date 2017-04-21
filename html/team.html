@@ -12,6 +12,7 @@
 	<link href="../css/theme.css" rel="stylesheet">
 	<script src="../js/jquery-latest.min.js"></script>
 	<script src="../js/expander.min.js"></script>
+    <script src='../js/index.js'></script>
 </head>
 <style>
     *{
@@ -49,12 +50,15 @@
         /*min-width: 1200px;*/
         overflow-x: hidden;
     }
-	.pho1,.jt2,.jt3,.bea,.cir,.vid,.vider,.cen,.circle,.meinv,.beauty,.cle,.more{
+	.pho1,.jt2,.jt3,.bea,.cir,.vid,.vider,.cen,.circle,.meinv,.beauty,.cle,.more,.small{
 			    	display:none;
 			    }
     .main{
     	width: 70%;
     	margin: 0 auto;
+    }
+    .pho{
+        display: block;
     }
     .top{
     	width: 100%;
@@ -325,9 +329,105 @@
         /*min-width: 1200px;*/
         overflow-x: hidden;
     }
-    .top,.banner,.jt,.jt1{
+    .top,.banner,.jt,.jt1,.pho,.after,.mm,.will,.t1,.lar1,.footer,.last,input,.search{
     	display: none;
     }
+      .small .bannerxm {
+    width: 100%;
+    height: 1019px;
+    overflow: hidden;
+    position: relative; }
+  .small .bannerxm > .nav {
+    height: 107px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100; }
+  .small .bannerxm > .nav > .container {
+    width: 83.4%;
+    padding-top: 19px;
+    box-sizing: border-box; }
+  .small .bannerxm > .nav > .container > .logo {
+    float: left; }
+  .small .bannerxm > .nav > .container > .name {
+    margin-left: 6px; }
+  .small .bannerxm > .nav > .container > .set {
+    float: right; }
+  .small .bannerxm > .nav > .container > .search {
+    float: right;
+    margin-right: 10px; }
+  .small .bannerxm > .list {
+    width: 482px;
+    height: 154px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    margin-top: -72px;
+    margin-left: -241px;
+    z-index: 101; }
+  .small .bannerxm > .list > a {
+    float: left;
+    width: 160px;
+    height: 77px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    line-height: 77px;
+    text-align: center;
+    color: #d7d7d7;
+    font-size: 28px; }
+  .small .bannerxm > .list > .active1 {
+    background: #fff;
+    color: #d93f3a;
+    font-weight: bold; }
+  .small .bannerxm > .screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.6s linear; }
+  .small .bannerxm > .screen > img {
+    width: 100%; }
+  .small .bannerxm > .screen:nth-child(1) {
+    z-index: 1; }
+  .small .bannerxm > .circle {
+    width: 114px;
+    height: 14px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -57px; }
+  .small .bannerxm > .circle > div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    float: left;
+    margin-left: 8px; }
+  .small .bannerxm > .circle > .active {
+    width: 35px;
+    height: 10px;
+    border-radius: 10px; }
+  .small .bannerxm > .button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    margin-top: -20px;
+    font-family: '宋体';
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px; }
+  .small .bannerxm > .left {
+    left: 10px; }
+  .small .bannerxm > .right {
+    right: 10px; } }
     .js{
     	width: 350px;
     	margin: 0 auto;
@@ -357,10 +457,9 @@
     	width: 100%;
     	float: left;
     }
-    .pho .pho2,.pho3,.pho{
+    /*.pho .pho2,.pho3,.pho{
     	display: none;
-    	margin-left: 129px;
-    }
+    }*/
     .jt2{
     	width: 240px;
     	margin: 0 auto;
@@ -451,17 +550,14 @@
     	text-align: center;
     	font-family: '宋体';
     }
-    a{
-    	color: #fff;
-    }
     .meinv{
     	width: 35%;
     	margin-left: 140px;
     	-webkit-animation:run 10s linear 0s infinite;
     }
-    .will,.t1,.after,.lar1,.footer,.last,input,.search{
+    /*.will,.t1,.lar1,.footer,.last,input,.search{
     	display: none;
-    }
+    }*/
     .beauty{
     	width: 20%;
     	margin-left: 50px;
@@ -524,6 +620,46 @@
 	    	<img src="../img/lg/team-1_02.png" alt="" />
 	    </div>
 	<div class="main">
+        <div class='small'>
+    <div class='bannerxm'>
+            <div class='nav'>
+                <div class='container'>
+                    <img class='logo' src="../img/lp/index-62.png">
+                    <img class='name' src="../img/lp/index-63.png">
+                    <img class='set' src="../img/lp/index-61.png">
+                    <img class='search' src="../img/lp/index-60.png">
+                </div>
+            </div>
+            <div class="list">
+                <a href='javascript:;'>网站首页</a>
+                <a href='javascript:;' >婚纱礼服</a>
+                <a href='javascript:;' >作品展示</a>
+                <a href='javascript:;'>摄影风格</a>
+                <a href='javascript:;'>关于我们</a>
+                <a href='javascript:;' class="active1">团队介绍</a>
+            </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='circle'>
+            <div class='active'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!--<div class="left button">&lt;</div>
+        <div class="right button">&gt;</div>-->
+    </div>  
+</div>
 	    <div class="js">
 	    	<img src="../img/lg/js_03.png" alt="" />
 	    </div>
