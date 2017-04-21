@@ -412,7 +412,6 @@
     height: 330px;
     margin-right: 26px;
     position: relative;
-    background: red;
     cursor: pointer;
     float: left;
   }
@@ -641,30 +640,34 @@
     border-right: 0;
   }
   .zxq-xiaoping .zxq-hslfyy {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-hslfyy .zxq-left {
-    width: 80%;
+    width: 100%;
     height: auto;
     float: left;
     position: relative;
   }
   .zxq-xiaoping .zxq-hslfyy .zxq-left .zxq-img1 {
-    width: 90%;
+    width: 60%;
     height: auto;
     margin-top: 36px;
     margin-left: 0;
     z-index: 1;
   }
   .zxq-xiaoping .zxq-hslfyy .zxq-left .zxq-img2 {
-    width: 90%;
+    width: 60%;
     height: auto;
     z-index: 2;
-    margin-top: -104%;
-    margin-left: 42%;
+    margin-top: -68%;
+    margin-left: 40%;
   }
   .zxq-xiaoping .zxq-hslfyy .zxq-right {
     width: 100%;
@@ -714,10 +717,14 @@
     color: #c4c4c5;
   }
   .zxq-xiaoping .zxq-hslftwo {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-hslftwo .zxq-left1 {
     width: 100%;
@@ -742,22 +749,22 @@
     margin-bottom: 0;
   }
   .zxq-xiaoping .zxq-hslftwo .zxq-right1 {
-    width: 80%;
+    width: 100%;
     height: auto;
     float: left;
   }
   .zxq-xiaoping .zxq-hslftwo .zxq-right1 .zxq-img1 {
-    width: 90%;
+    width: 65%;
     height: auto;
     margin-left: 0;
     margin-top: 60px;
     z-index: 20;
   }
   .zxq-xiaoping .zxq-hslftwo .zxq-right1 .zxq-img2 {
-    width: 90%;
+    width: 65%;
     height: auto;
-    margin-top: -104%;
-    margin-left: 40%;
+    margin-top: -80%;
+    margin-left: 35%;
     z-index: 1;
   }
   .zxq-xiaoping .zxq-hslftwo .zxq-xiaotu1 {
@@ -789,23 +796,27 @@
     height: auto;
     margin: 0 auto;
     overflow: hidden;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-zi img {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 200%;
     height: auto;
-    margin-left: 70px;
   }
   .zxq-xiaoping .zxq-zi2 {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    overflow: hidden;
+    box-sizing: border-box;
   }
   .zxq-xiaoping .zxq-zi2 p.zxq-zi1 {
-    width: 80%;
-    height: 60px;
-    margin-left: 68px;
-    margin-right: 68px;
+    width: 100%;
+    height: auto;
     font-size: 14px;
     line-height: 30px;
     color: #b5b4b4;
