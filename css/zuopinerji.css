@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media screen and (max-width: 1920px) and (min-width: 768px) {
   .container-fluid {
     width: 1200px;
@@ -145,7 +146,57 @@
           width: 97%;
           height: auto;
           display: block;
-          margin-top: -3px; } }
+          margin-top: -3px; }
+  .bannerxm {
+    display: none; }
+  .lunbo {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    float: left; }
+    .lunbo .diandian {
+      width: 30%;
+      height: 100%;
+      margin: 0 auto;
+      position: relative; }
+      .lunbo .diandian div {
+        width: 20px;
+        height: 20px;
+        float: left;
+        text-align: center; }
+      .lunbo .diandian .active3 {
+        background: red;
+        border-radius: 50%;
+        color: white; }
+      .lunbo .diandian .button {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 30px;
+        font-family: '宋体';
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        line-height: 20px;
+        background: red; }
+      .lunbo .diandian .zuo {
+        left: -35px; }
+      .lunbo .diandian .you {
+        right: -33px; }
+      .lunbo .diandian input {
+        width: 160px;
+        height: 25px;
+        border-radius: 20px;
+        margin-left: 20px;
+        border: 1px solid red; }
+      .lunbo .diandian .glyphicon {
+        position: absolute;
+        right: 22px;
+        top: 5px;
+        color: red; }
+  .lunbo1 {
+    display: none; } }
 
 @media screen and (max-width: 768px) {
   .container-fluid {
@@ -170,7 +221,8 @@
     height: 150px;
     background-image: url(../img/gx/gx-erji-title1.png);
     background-size: 100%;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    display: none; }
   .work {
     width: 100%;
     height: auto;
@@ -228,4 +280,110 @@
           width: 100%;
           height: 100%; }
       .chatu .hidden1 .right {
-        display: none; } }
+        display: none; }
+  .bannerxm {
+    width: 100%;
+    height: 1019px;
+    overflow: hidden;
+    position: relative; }
+  .bannerxm > .nav1 {
+    height: 107px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000; }
+  .bannerxm > .nav1 > .container {
+    width: 83.4%;
+    padding-top: 19px;
+    box-sizing: border-box; }
+  .bannerxm > .nav1 > .container > .logo {
+    float: left; }
+  .bannerxm > .nav1 > .container > .name {
+    margin-left: 6px; }
+  .bannerxm > .nav1 > .container > .set {
+    float: right; }
+  .bannerxm > .nav1 > .container > .search {
+    float: right;
+    margin-right: 10px; }
+  .bannerxm > .list {
+    width: 482px;
+    height: 154px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    margin-top: -72px;
+    margin-left: -241px;
+    z-index: 101; }
+  .bannerxm > .list > a {
+    float: left;
+    width: 160px;
+    height: 77px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    line-height: 77px;
+    text-align: center;
+    color: #d7d7d7;
+    font-size: 28px; }
+  .bannerxm > .list > .active1 {
+    background: #fff;
+    color: #d93f3a;
+    font-weight: bold; }
+  .bannerxm > .screen1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.6s linear; }
+  .bannerxm > .screen1 > img {
+    width: 100%; }
+  .bannerxm > .screen1:nth-child(1) {
+    z-index: 1; }
+  .bannerxm > .circle {
+    width: 114px;
+    height: 14px;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    z-index: 2;
+    margin-left: -57px; }
+  .bannerxm > .circle > div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    float: left;
+    margin-left: 8px; }
+  .bannerxm > .circle > .active {
+    width: 35px;
+    height: 10px;
+    border-radius: 10px; }
+  .lunbo {
+    display: none; }
+  .lunbo1 {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0 auto; }
+    .lunbo1 div {
+      width: 60%;
+      height: 100%;
+      margin: 0 auto; }
+      .lunbo1 div .shang {
+        width: 120px;
+        height: 50px;
+        border: 2px solid red;
+        border-radius: 30px;
+        text-align: center;
+        line-height: 50px;
+        float: left;
+        margin: 0 auto;
+        font-size: 24px;
+        color: red; }
+      .lunbo1 div .shang1 {
+        float: left;
+        text-align: center;
+        font-size: 36px;
+        color: red;
+        margin: 0 30px; } }
