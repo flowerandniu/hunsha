@@ -389,21 +389,21 @@
     width: 338px;
     height: 108px;
     position: absolute;
-    top: 28%;
-    left: 50%;
-    margin-top: -54px;
-    margin-left: -164px;
+    top: 33%;
+    left: 78%;
+    margin-top: -72px;
+    margin-left: -241px;
     z-index: 101; }
   .bannerxm > .list > a {
     float: left;
-    width: 33.33%;
+    width: 27%;
     height: 50%;
     border-radius: 10px;
     border: 2px solid #fff;
     line-height: 54px;
     text-align: center;
     color: #d7d7d7;
-    font-size: 20px; }
+    font-size: 18px; }
   .bannerxm > .list > .active1 {
     background: #fff;
     color: #d93f3a;
@@ -451,19 +451,19 @@
       margin: 0 auto; }
       .lunbo1 div .shang {
         width: 100px;
-        height: 50px;
+        height: 35px;
         border: 2px solid red;
         border-radius: 30px;
         text-align: center;
-        line-height: 50px;
+        line-height: 35px;
         float: left;
         margin: 0 auto;
-        font-size: 22px;
+        font-size: 18px;
         color: red; }
       .lunbo1 div .shang1 {
         float: left;
         text-align: center;
-        font-size: 36px;
+        font-size: 26px;
         color: red;
         margin: 0 10px; }
   .dibu {
