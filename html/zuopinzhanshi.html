@@ -52,6 +52,18 @@
 	    	height: auto;
 	    }
     </style>
+    <script>
+    	$(document).ready(function(){
+    		var swiper = new Swiper('.swiper-container', {
+		        pagination: '.swiper-pagination',
+		        slidesPerView: 2,
+		        slidesPerColumn: 1,
+		        paginationClickable: true,
+		        spaceBetween: 30
+		    });
+    	})
+	
+    </script>
 	<body>
 		<div class="container-fluid">
 			<div class="nav">
@@ -291,12 +303,3 @@
 		</div>
 	</body>
 </html>
-		<script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        slidesPerView: 2,
-        slidesPerColumn: 1,
-        paginationClickable: true,
-        spaceBetween: 30
-    });
-    </script>
