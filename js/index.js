@@ -7,7 +7,7 @@ $(document).ready(function(){
 	//banner
 	//改变盒子的宽度
 	$(".bannerxm").height(509);
-	$(".bannerxm>.screen>img").height(509);
+//	$(".bannerxm>.screen>img").height(509);
 	$(window).triggerHandler('resize');//页面加载完成后resize事件至少执行一次
 //如果窗口大小发生变化，触发函数
 	$(window).resize(function(){
