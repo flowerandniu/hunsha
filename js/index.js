@@ -6,12 +6,20 @@ $(document).ready(function(){
 	})
 	//banner
 	//改变盒子的宽度
-	 $(".banner").height(function(){
-		    return $('.banner>.screen>img').height();
-	    });//设置初始状态
-     $(".bannerxm").height(function(){
-	    return $('.bannerxm>.screen>img').height();
-    });//设置初始状态
+	let s=setInterval(function(){
+		if($(".bannerxm").height()==0){
+			$(".banner").height(function(){
+				    return $('.banner>.screen>img').height();
+			  });
+		 }//设置初始状态
+		 if($(".banner").height()==0){
+		     $(".bannerxm").height(function(){
+			    return $('.bannerxm>.screen>img').height();
+		    });//设置初始状态
+		}	
+	},400)
+	$(window).triggerHandler('resize');//页面加载完成后resize事件至少执行一次
+//如果窗口大小发生变化，触发函数
 	$(window).resize(function(){
 	  let current=$(window).width();
 	  if(current>=768){
@@ -24,7 +32,7 @@ $(document).ready(function(){
 	    });
 	  }
 	});
-	$(window).triggerHandler('resize');		//页面加载完成后resize事件至少执行一次
+	
 //	轮播
 	let i=0;
 	let img=$('.banner').find('.screen');//
@@ -72,7 +80,7 @@ $(document).ready(function(){
 	})
 	letter.mouseover(function(){
 		img.css('opacity','0').eq($(this).index()).css('opacity','1');
-		letter.removeClass('active').eq(i).addClass('active');
+		letter.removeClass('active').eq($(this).index()).addClass('active');
 	})
 //	floor3-选项卡
 	$('.f3-message>div').on('click',function(){
@@ -100,9 +108,9 @@ $(document).ready(function(){
 	
 	//小屏
 //	轮播
-	let j=0;
-	let img1=$('.bannerxm').find('.screen');//
-	let letter1=$('.bannerxm .circle div');//
+	var j=0;
+	var img1=$('.bannerxm').find('.screen');//
+	var letter1=$('.bannerxm .circle div');//
    	function move1(way='right'){
    		if(way=='right'){
    			j++;
@@ -119,7 +127,7 @@ $(document).ready(function(){
    		img1.css('opacity','0').eq(j).css('opacity','1');
    		letter1.removeClass('active').eq(j).addClass('active');
    	}
-	let t1=setInterval(move1,1000);
+	var t1=setInterval(move1,1000);
 	$('.bannerxm>.list>a').each(function(index,value){
 		value.addEventListener('touchstart',function(){
 			$('.bannerxm>.list>a').removeClass('active1');
