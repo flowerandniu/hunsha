@@ -80,7 +80,6 @@ a{
             img{
                 width:100%;
                 height:auto;
-               
             }
         }
         .zxq-first{
@@ -442,6 +441,7 @@ a{
             height: auto;
             margin: 0 auto;
 //          margin-left:-24px;
+            padding:54px 12px 28px 12px;
             box-sizing: border-box;
             overflow: hidden;
             img{
@@ -455,7 +455,6 @@ a{
             margin:0 auto;
 //          margin-left:60px;
 //          margin-right:60px;
-            padding-top:40px;
             padding-left:12px;
             padding-right:12px;
             box-sizing: border-box;
@@ -586,7 +585,7 @@ a{
                 img:last-child{
                     width:74%;
                     height:auto;
-                    margin-top:-100px;
+                    margin-top:-50%;
                     margin-left:30%;
                     z-index:2;
                 }
@@ -598,6 +597,8 @@ a{
             height:auto;
             margin:0 auto;
             margin-top:50px;
+            padding:0 20px;
+            box-sizing: border-box;
             .zxq-wh1{
                 width:100%;
                 margin:0 auto;
@@ -641,7 +642,7 @@ a{
                     p{
                         width:100%;
                         height: auto;
-                        font-size:30px;
+                        font-size:28px;
 //                      line-height: 30px;
                         color:#c2c1c1;
                         span{
@@ -650,7 +651,7 @@ a{
                     }
                     
                     .second-p{
-                        font-size: 36px;
+                        font-size: 28px;
                         line-height: 30px;
                         color:#e73c50;
                         text-align: justify; 
@@ -659,14 +660,14 @@ a{
                         font-size: 20px;
                         line-height: 36px;
                         color:#c2c1c1;
-                        margin-top:59px;
+                        margin-top:30px;
                         text-align: justify;
                     }
                     .four-p{
                         font-size: 18px;
                         line-height: 30px;
                         color:#c2c1c1;
-                        margin-top:39px;
+                        margin-top:35px;
                         text-align: justify;
                     }
                 }
