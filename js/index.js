@@ -6,18 +6,8 @@ $(document).ready(function(){
 	})
 	//banner
 	//改变盒子的宽度
-	let s=setInterval(function(){
-		if($(".bannerxm").height()==0){
-			$(".banner").height(function(){
-				    return $('.banner>.screen>img').height();
-			  });
-		 }//设置初始状态
-		 if($(".banner").height()==0){
-		     $(".bannerxm").height(function(){
-			    return $('.bannerxm>.screen>img').height();
-		    });//设置初始状态
-		}	
-	},400)
+	$(".bannerxm").height(509);
+	$(".bannerxm>.screen>img").height(509);
 	$(window).triggerHandler('resize');//页面加载完成后resize事件至少执行一次
 //如果窗口大小发生变化，触发函数
 	$(window).resize(function(){
@@ -134,5 +124,7 @@ $(document).ready(function(){
 			$(this).addClass('active1');
 		})
 	})
+//	小屏
+	
 	
 })

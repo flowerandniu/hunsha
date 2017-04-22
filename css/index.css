@@ -370,7 +370,80 @@
     opacity: 1;
     background: #f2f2f2; }
   .big .floor6 > .f6 > .f6-col:nth-child(3) > img {
-    opacity: 0.6; } }
+    opacity: 0.6; }
+  .big .dibu {
+    width: 100%;
+    height: 500px;
+    float: left; }
+    .big .dibu div {
+      width: 100%;
+      height: 100%;
+      background-image: url(../img/gx/gx-dibubg.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative; }
+      .big .dibu div .phone {
+        width: 150px;
+        height: 20px;
+        font-size: 20px;
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 11%; }
+      .big .dibu div .ooo {
+        width: 150px;
+        height: 20px;
+        font-size: 12px;
+        color: #a89c9c;
+        position: absolute;
+        top: 55%;
+        left: 11%; }
+      .big .dibu div .add {
+        width: 215px;
+        height: 20px;
+        font-size: 12px;
+        color: #a89c9c;
+        position: absolute;
+        top: 62.5%;
+        left: 11%; }
+      .big .dibu div .yinwen {
+        width: 430px;
+        height: 20px;
+        font-size: 12px;
+        color: #ccc5c5;
+        position: absolute;
+        top: 75%;
+        left: 8%; }
+      .big .dibu div input {
+        width: 300px;
+        height: 40px;
+        position: absolute;
+        top: 27%;
+        right: 14%; }
+      .big .dibu div div {
+        width: 60px;
+        height: 39px;
+        position: absolute;
+        top: 27.2%;
+        right: 8.5%;
+        background: white; }
+        .big .dibu div div img {
+          width: 45%;
+          height: auto;
+          margin-left: 25%;
+          margin-top: 10%; }
+      .big .dibu div .fenxiang {
+        width: 110px;
+        height: auto;
+        position: absolute;
+        top: 37%;
+        right: 8.5%; }
+      .big .dibu div .silei {
+        width: 370px;
+        height: auto;
+        position: absolute;
+        bottom: 22%;
+        right: 8.5%; } }
 
 @media screen and (max-width: 768px) {
   .big {
@@ -579,4 +652,6 @@
     font-size: 16px;
     color: #9d9c9c; }
   .small .floor6xm > .f6xm > .f6xmbox > .message > a > img {
-    margin-top: 15px; } }
+    margin-top: 15px; }
+  .small .dibu1 {
+    width: 100%; } }
