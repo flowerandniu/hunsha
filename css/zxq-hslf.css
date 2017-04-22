@@ -679,7 +679,7 @@
   }
   .zxq-xiaoping .zxq-fenlei .zxq-ul1 li {
     float: left;
-    width: 22%;
+    width: 20%;
     height: auto;
     color: #b5b5b6;
     text-align: center;
@@ -705,7 +705,7 @@
     color: #e72924;
   }
   .zxq-xiaoping .zxq-fenlei .zxq-ul1 li:last-child {
-    width: 35%;
+    width: 40%;
     border-right: 0;
   }
   .zxq-xiaoping .zxq-hslfyy {
