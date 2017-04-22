@@ -87,6 +87,15 @@
     .work img {
       margin: 0 auto;
       display: block; }
+  .work1 {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    float: left; }
+    .work1 img {
+      margin: 0 auto;
+      display: block; }
   .glyphicon {
     color: #F0BDAD; }
   .xian {
@@ -305,9 +314,17 @@
     margin-bottom: 20px;
     float: left; }
     .work img {
+      width: 100%;
+      margin: 0 auto; }
+  .work1 {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    float: left; }
+    .work1 img {
       width: 35%;
-      margin: 0 auto;
-      display: block; }
+      margin: 0 116px; }
   .glyphicon {
     color: #F0BDAD; }
   .xian {

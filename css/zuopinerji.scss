@@ -102,6 +102,18 @@
       display: block; 
     }
 }
+.work1{
+    width: 100%;
+    height: auto;
+    margin-top:25px;
+    margin-bottom: 20px;
+    float: left;
+    img{
+//      height: auto;
+      margin: 0 auto; 
+      display: block; 
+    }
+}
 .glyphicon{
     color: #F0BDAD;
 }
@@ -375,10 +387,23 @@
     margin-bottom: 20px;
     float: left;
     img{
-        width: 35%;
+        width: 100%;
 //      height: auto;
       margin: 0 auto; 
-      display: block; 
+//    display: block; 
+    }
+}
+.work1{
+    width: 100%;
+    height: auto;
+    margin-top:25px;
+    margin-bottom: 20px;
+    float: left;
+    img{
+        width: 35%;
+//      height: auto;
+      margin: 0 116px; 
+//    display: block; 
     }
 }
 .glyphicon{
