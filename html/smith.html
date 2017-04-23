@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="stylesheet" type="text/css" href="../css/style1.css">
     <script src='../js/index.js'></script>
+    <link rel="stylesheet" href="../css/tuandui.css">
+    <script src='../js/tuandui.js'></script>
 </head>
 <style>
     *{
@@ -46,7 +48,7 @@
         /*min-width: 1200px;*/
         overflow-x: hidden;
     }
-    .pos1,.team1,.wenzi1,.eng1{
+    .pos1,.team1,.wenzi1,.eng1,.xiaoping{
         display: none;
     }
     .box{
@@ -241,7 +243,111 @@
     .top,.banner,.pos,.box,.footer,.team,.pos,.wenzi,.eng,.last{
         display: none;
     }
-    .small .bannerxm {
+     .daping .container-fluid{
+        display: none;
+    }
+    /*.daping .bannerxm{
+        display: block;
+    }*/
+     .xiaoping .bannerxm1{
+        width:100%;
+        height: 1019px;
+        overflow:hidden;
+        position:relative;
+    }
+    .bannerxm1>.nav{
+        height:107px;
+        width:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        z-index:100;
+    }
+    .bannerxm1>.nav>.container{
+        width:83.4%;
+        padding-top:19px;
+        box-sizing:border-box;
+    }
+    .bannerxm1>.nav>.container>.logo{    
+        float:left;
+        width:35px;  
+    }
+    .bannerxm1>.nav>.container>.name{
+        margin-left:6px;
+        width:80px; 
+    }
+    .bannerxm1>.nav>.container>.set{
+        float:right;  
+        width:30px; 
+    }
+    .bannerxm1>.nav>.container>.search{
+        float:right;  
+        margin-right:10px;
+        width:30px;
+    }
+    .bannerxm1>.list{
+        width:338px;
+        height:108px;
+        position:absolute;
+        top:28%;
+        left:50%;
+        margin-top:-54px;
+        margin-left:-164px;
+        z-index:101;
+    }
+    .bannerxm1>.list>a{
+        float:left;
+        width:33.33%;
+        height:50%;
+        border-radius:10px;
+        border:2px solid #fff;
+        line-height:54px;
+        text-align:center;
+        color:#d7d7d7;
+        font-size:20px;
+    }
+    .bannerxm1>.list>.active1{
+        background:#fff;
+        color:#d93f3a;
+        font-weight:bold;
+    }
+    .bannerxm1>.screen{
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        left:0;
+        transition:opacity 0.6s linear;
+    }
+    .bannerxm1>.screen>img{
+        width:100%;
+    }
+    .bannerxm1>.screen:nth-child(1){
+        z-index:1;
+    }
+    .bannerxm1>.circle{
+        width:114px;
+        height:14px;
+        position:absolute;
+        bottom:60px;
+        left:50%;
+        z-index:2;
+        margin-left:-57px;
+    }
+    .bannerxm1>.circle>div{
+        width:10px;
+        height:10px;
+        border-radius:50%;
+        border:2px solid #fff;
+        float:left;
+        margin-left:8px;
+    }
+    .bannerxm1>.circle>.active{
+        width:35px;
+        height:10px;
+        border-radius:10px;
+    }
+   /* .small .bannerxm {
     width: 100%;
     height: 1019px;
     overflow: hidden;
@@ -336,7 +442,7 @@
   .small .bannerxm > .left {
     left: 10px; }
   .small .bannerxm > .right {
-    right: 10px; } }
+    right: 10px; } }*/
     .pos1{
     	width: 300px;
     	margin-left: 50px;
@@ -407,6 +513,7 @@
    }
 </style>
 <body>
+    <div class="daping">
 	<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 long1">
@@ -562,5 +669,94 @@ Will Smith was born Willard Christopher Smith Jr on September 25th,1968 in Phila
 	 <div class="last">
 	    	<img src="../img/lg/kt_03.png" alt="" />
 	 </div>
+    </div>
+     <div class="xiaoping">
+        <div class='bannerxm1'>
+            <div class='nav'>
+                <div class='container'>
+                    <img class='logo' src="../img/lp/index-62.png">
+                    <img class='name' src="../img/lp/index-63.png">
+                    <img class='set' src="../img/lp/index-61.png">
+                    <img class='search' src="../img/lp/index-60.png">
+                </div>
+            </div>
+            <div class="list">
+                <a href='index.html'>网站首页</a>
+                <a href='zxq-hslf.html' target="_blank">婚纱礼服</a>
+                <a href='zuopinzhanshi.html' target="_blank">作品展示</a>
+                <a href='fengge.html' target="_blank">摄影风格</a>
+                <a href='zxq-gywm.html' target="_blank">关于我们</a>
+                <a href='javascript:;' target="_blank" class="active1">团队介绍</a>
+            </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>
+        <div class='screen'>
+            <img src="../img/lp/index-59.png">
+        </div>  
+        <div class='circle'>
+            <div class='active'></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- floor1 -->
+        <div class="js">
+            <img src="../img/lg/js_03.png" alt="" />
+        </div>
+        <div class="zx">
+            <img src="../img/lg/js_07.png" alt="" />
+        </div>
+       <!--  <div class="pho1">
+            <img src="../img/lg/111_03.png" alt="" />
+        </div>
+        <div class="jt2">
+            <img src="../img/lg/js_11.png" alt="" />
+        </div>
+        <div class="jt3">
+            <img src="../img/lg/photo_03.png" alt="" />
+        </div>
+        <div class="bea">
+            <img src="../img/lg/nianhua_03.png" alt="" />
+        </div> -->
+        <div class="cir">
+                张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。张悦（ZACK ZHANG），国内顶尖时尚摄影师，1980年出生于北京。他的摄影作品有着令人过目难忘的华丽质感与灵动生气，他对色彩与光线的调配能力更是让人惊叹。他以摩登的独特视角与语言，跨越时装,影像等时尚文化领域的平面创作，受到多种国际品牌杂志的青睐。其创意和理念被海外众多的一线杂志与国际顶级品牌认同并与其达成共识。
+        </div>
+        <!-- <div class="show">
+            <a href='smith.html'>show more -></a>
+        </div> -->
+       <!--  <div class="vid">
+            <img src="../img/lg/vider_06.png" alt="" />
+        </div> -->
+        <div class="vider">
+            <img src="../img/lg/will_03.png" alt="" />
+            <!-- <div class="cen">
+                <a href="javascript:;">enter</a>
+            </div> -->
+            <div class="circle">
+                
+            </div>
+           <!--  <div class="meinv">
+                <img src="../img/lg/girl_07.png" alt="" />
+            </div>
+            <div class="beauty">
+                <img src="../img/lg/beauty_11.png" alt="" />
+            </div> -->
+            <div class="cle">
+                Stephen Curry (Stephen Curry), was born on March 14, 1988, in Akron, Ohio (Akron, Ohio), American professional basketball player, the secretary point guard, playing for the NBA golden state warriors.
+Stephen curry through to enter the NBA draft in 2009 has been played for the warriors, rookie season in the best rookie first team, in 2014, 2015 in west all-star line-up, 2014-15 elected MVP season, the first squad named best team, and help the warriors won the NBA championship.
+Stephen curry with team USA won the world championship in Turkey in 2010, with the USA basketball World Cup in Spain in 2014.
+            </div>
+        </div>
+        <img src="../img/gx/gx-dibu-xiaoping1.png" alt="" class="dibu1"/>   
+        </div> 
+</div>
 </body>
 </html>
