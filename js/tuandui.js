@@ -22,8 +22,8 @@ $(document).ready(function(){
 	//小屏
 //	轮播
 	var j=0;
-	var img1=$('.bannerxm').find('.screen');//
-	var letter1=$('.bannerxm .circle div');//
+	var img1=$('.bannerxm1').find('.screen');//
+	var letter1=$('.bannerxm1 .circle div');//
    	function move1(way='right'){
    		if(way=='right'){
    			j++;
@@ -41,9 +41,9 @@ $(document).ready(function(){
    		letter1.removeClass('active').eq(j).addClass('active');
    	}
 	var t1=setInterval(move1,1000);
-	$('.bannerxm>.list>a').each(function(index,value){
+	$('.bannerxm1>.list>a').each(function(index,value){
 		value.addEventListener('touchstart',function(){
-			$('.bannerxm>.list>a').removeClass('active1');
+			$('.bannerxm1>.list>a').removeClass('active1');
 			$(this).addClass('active1');
 		})
 	})
