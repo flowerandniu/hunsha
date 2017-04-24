@@ -16,6 +16,7 @@
     <script src='../js/index.js'></script>
     <link rel="stylesheet" href="../css/tuandui.css">
     <script src='../js/tuandui.js'></script>
+    <link rel="stylesheet" href="../css/hslf.css" />
 </head>
 <style>
     *{
@@ -52,6 +53,86 @@
         /*min-width: 1200px;*/
         overflow-x: hidden;
     }
+    .daping nav {
+    width: 100%;
+    height: 49px;
+    font-size: 17px;
+  }
+  .daping nav > .container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .daping nav > .container > .logo {
+    height: 43px;
+    margin-top: 3px;
+    float: left;
+  }
+  .daping nav > .container > .name {
+    height: 31px;
+    margin-top: 9px;
+    float: left;
+    margin-left: 4px;
+  }
+  .daping nav > .container > .letter {
+    float: left;
+    line-height: 49px;
+    margin-left: 41px;
+  }
+  .daping nav > .container > .letter > a {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 49px;
+    color: #e63f3a;
+    font-size: 17px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .daping a:hover {
+    text-decoration: none;
+  }
+  .daping nav > .container > .letter > .active {
+    background: #e63f3a;
+    color: #fff;
+    text-decoration: none;
+  }
+  .daping nav > .container > form {
+    float: right;
+    margin-top: 11px;
+    margin-right: 72px;
+    width: 182px;
+    height: 28px;
+    background-image: url("../img/lp/index-3.png");
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+  }
+  .daping nav > .container > form > input {
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 23px;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    z-index: 3;
+  }
+  .daping nav > .container > form > .search {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 19px;
+    z-index: 4;
+  }
+  .zxq-daping .zxq-header {
+    width: 100%;
+    height: auto;
+  }
+  .zxq-daping .zxq-header img {
+    width: 100%;
+    height: auto;
+  }
 	.pho1,.jt2,.jt3,.bea,.cir,.vid,.vider,.cen,.circle,.meinv,.beauty,.cle,.more,.small,.xiaoping{
 			    	display:none;
 			    }
@@ -72,11 +153,11 @@
     	margin: 0 auto;
     	margin-left: 115px;
     }
-    .logo{
+    /*.logo{
     	width:10%;
     	float: left;
     	margin-top: 10px;
-    }
+    }*/
     .mid{
     	width: 60%;
     	float: left;
@@ -726,32 +807,33 @@
 </style>
 <body>
 <div class="daping">
-
+   <nav>
+                        <div class='container'>
+                            <img class='logo' src="../img/lp/index-1.png">
+                            <img class='name' src='../img/lp/index-2.png'>
+                            <div class='letter'>
+                                <a href='index.html' target='_blank'>首页</a>
+                                <a  href='javascript:;' target='_black'>婚纱礼服</a>
+                                <a href='zuopinzhanshi.html' target='_black'>作品展示</a>
+                                <a href='fengge.html' target='_black'>摄影风格</a>
+                                <a href='gywm.html' target='_black'>关于我们</a>
+                                <a class='active' href='team.html' target='_black'>团队介绍</a>
+                            </div>
+                            <form action="" method="">
+                                <input type="text" name='search'>
+                                <img class='search' src="../img/lp/index-4.png">
+                            </form>
+                        </div>
+                    </nav>
+                    <div class='zxq-header'>
+                        <img src="../img/zxq/zxq-hslf.png" alt=""  class="img-responsive"/>
+                    </div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 long2">
-				 <div class="top">
-	        <div class="logo">
-	        	<img src="../img/lg/logo1_03.png" alt="" />
-	        </div>
-	        <div class="mid">
-	        	<a href="index.html" class="first">首页</a>
-	        	<a href="zxq-hslf.html">婚纱礼服</a>
-	        	<a href="zuopinzhanshi.html">作品展示</a>
-	        	<a href="fengge.html">摄影风格</a>
-	        	<a href="zxq-gywm.html">关于我们</a>
-	        	<a class="say">团队介绍</a>
-	        </div>
-	        <div class="right">
-	        	<form action="" method="">
-					<input type="text" name='search'>
-					<img class='search' src="../img/lp/index-4.png">
-				</form>
-	        </div>
-	    </div>  
-	    <div class="banner">
+	   <!--  <div class="banner">
 	    	<img src="../img/lg/team-1_02.png" alt="" />
-	    </div>
+	    </div> -->
 	<div class="main">
         <div class='small'>
     <div class='bannerxm'>
@@ -765,10 +847,10 @@
             </div>
             <div class="list">
                 <a href='index.html'>网站首页</a>
-                <a href='zxq-hslf.html' >婚纱礼服</a>
+                <a href='hslf.html' >婚纱礼服</a>
                 <a href='zuopinzhanshi.html' >作品展示</a>
                 <a href='fengge.html'>摄影风格</a>
-                <a href='zxq-gywm.html'>关于我们</a>
+                <a href='gywm.html'>关于我们</a>
                 <a href='javascript:;' class="active1">团队介绍</a>
             </div>
         <div class='screen'>
@@ -926,10 +1008,10 @@ Stephen curry with team USA won the world championship in Turkey in 2010, with t
             </div>
             <div class="list">
                 <a href='index.html'>网站首页</a>
-                <a href='zxq-hslf.html' target="_blank">婚纱礼服</a>
+                <a href='hslf.html' target="_blank">婚纱礼服</a>
                 <a href='zuopinzhanshi.html' target="_blank">作品展示</a>
                 <a href='fengge.html' target="_blank">摄影风格</a>
-                <a href='zxq-gywm.html' target="_blank">关于我们</a>
+                <a href='gywm.html' target="_blank">关于我们</a>
                 <a href='javascript:;' target="_blank" class="active1">团队介绍</a>
             </div>
         <div class='screen'>
